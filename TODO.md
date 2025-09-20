@@ -3,9 +3,9 @@
 ## Prioridad alta
 
 - [] Configurar Nginx en VPS con SSL para maitenaccesorios.com.ar
-- [] Modificar docker-compose.yml para producción (quitar puertos expuestos, cambiar NODE_ENV)
+- [X] Modificar docker-compose.yml para producción (quitar puertos expuestos, cambiar NODE_ENV)
 - [] Crear Dockerfile de producción optimizado (multi-stage build)
-- [] Configurar variables de entorno seguras (.env.production)
+- [X] Configurar variables de entorno seguras (.env.production)
 - [] Descargar Next.js storefront en carpeta separada
 - [] Crear docker-compose para Next.js storefront
 - [] Integrar Mercado Pago en backend Medusa

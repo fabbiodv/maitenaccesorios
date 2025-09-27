@@ -1971,7 +1971,7 @@
   resolved "https://registry.npmjs.org/@medusajs/api-key/-/api-key-2.10.3.tgz"
   integrity sha512-HCokbo6WbOZdEi1hn7Pje49bAsI5Xw/D2BoxzNUpqPB9cBaWSYZ8s2l+yPtXNdSOCCqe46bXUzZL+PLUgoKg0Q==
 
-"@medusajs/auth-emailpass@2.10.3":
+"@medusajs/auth-emailpass@^2.10.3", "@medusajs/auth-emailpass@2.10.3":
   version "2.10.3"
   resolved "https://registry.npmjs.org/@medusajs/auth-emailpass/-/auth-emailpass-2.10.3.tgz"
   integrity sha512-3nhRtrBCmzaMJUL9YUd0dERF0ev/LvzR3pTpycHUwOFnb54NfTLB9Hc5faiuPj5RYkN7oMS5Nx/uxeWjuhR8EA==
@@ -1990,7 +1990,7 @@
   dependencies:
     jsonwebtoken "^9.0.2"
 
-"@medusajs/auth@2.10.3":
+"@medusajs/auth@^2.10.3", "@medusajs/auth@2.10.3":
   version "2.10.3"
   resolved "https://registry.npmjs.org/@medusajs/auth/-/auth-2.10.3.tgz"
   integrity sha512-QejEH3n6bOvgVCH3vLJSRh521ezGw1Zh2oMSP5xJvNej3VP+Zosp4JUSaTjkcYVpkChunPehVDFIynNEbrZ0IA==
@@ -4659,6 +4659,11 @@
   resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.52.0.tgz"
   integrity sha512-nmSVN+F2i1yKZ7rJNKO3G7ZzmxJgoQBQZ/6c4MuS553Grmr7WqR7LLDcYG53Z2m9409z3JLt4sCOhLdbKQ3HmA==
 
+"@rollup/rollup-linux-x64-musl@4.52.0":
+  version "4.52.0"
+  resolved "https://registry.npmjs.org/@rollup/rollup-linux-x64-musl/-/rollup-linux-x64-musl-4.52.0.tgz"
+  integrity sha512-2d0qRo33G6TfQVjaMR71P+yJVGODrt5V6+T0BDYH4EMfGgdC/2HWDVjSSFw888GSzAZUwuska3+zxNUCDco6rQ==
+
 "@rushstack/node-core-library@5.10.2":
   version "5.10.2"
   resolved "https://registry.npmjs.org/@rushstack/node-core-library/-/node-core-library-5.10.2.tgz"
@@ -5232,6 +5237,11 @@
   version "1.5.7"
   resolved "https://registry.npmjs.org/@swc/core-linux-x64-gnu/-/core-linux-x64-gnu-1.5.7.tgz"
   integrity sha512-25GXpJmeFxKB+7pbY7YQLhWWjkYlR+kHz5I3j9WRl3Lp4v4UD67OGXwPe+DIcHqcouA1fhLhsgHJWtsaNOMBNg==
+
+"@swc/core-linux-x64-musl@1.5.7":
+  version "1.5.7"
+  resolved "https://registry.npmjs.org/@swc/core-linux-x64-musl/-/core-linux-x64-musl-1.5.7.tgz"
+  integrity sha512-0VN9Y5EAPBESmSPPsCJzplZHV26akC0sIgd3Hc/7S/1GkSMoeuVL+V9vt+F/cCuzr4VidzSkqftdP3qEIsXSpg==
 
 "@swc/core@1.5.7":
   version "1.5.7"

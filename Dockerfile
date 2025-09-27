@@ -36,14 +36,14 @@ WORKDIR /app
 # Copy package files
 COPY package.json package-lock.json ./
 
-# Install dependencies
-RUN npm ci --legacy-peer-deps --only=production && npm cache clean --force
+# Install all dependencies (including dev dependencies for build)
+RUN npm ci --legacy-peer-deps && npm cache clean --force
 
 # Copy source code
 COPY . .
 
-# Build the application
-RUN npm run build
+# Build the application with increased memory limit (optimized for 2GB VPS)
+RUN NODE_OPTIONS="--max-old-space-size=1536" npm run build
 
 # === PRODUCTION STAGE ===
 FROM node:20-alpine AS production
